@@ -4,6 +4,7 @@ from matplotlib.ticker import LinearLocator
 import numpy as np
 fig, ax = plt.subplots(subplot_kw={"projection": "3d"})
 
+
 x = np.arange(-10, 10, 0.5)
 y = np.arange(-10, 10, 0.5)
 x, y = np.meshgrid(x, y)
