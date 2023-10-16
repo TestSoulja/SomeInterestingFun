@@ -1,7 +1,6 @@
-import imp
 import os
 
-os.system("clear")
+# os.system("clear")
 
 numper = int(input())
 second = numper
